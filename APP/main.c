@@ -1,11 +1,3 @@
-/*
- * APP.c
- *
- *  Created on: Aug 21, 2023
- *      Author: karim
- */
-
-
 #include "../LIB/STD_TYPES.h"
 #include "../MCAL/TWI/TWI_interface.h"
 #include "../MCAL/DIO/DIO_interface.h"
@@ -603,8 +595,8 @@ int main(void)
 	MEXTI_voidSetCallback (EXTI2,&deposit);
 	MEXTI_voidEnableINT (EXTI0);
 	MEXTI_voidEnableINT (EXTI1);
-	MEXTI_voidEnableINT (EXTI2);
-    GIE_voidEnableGlobalInterrupt();
+	MEXTI_voidEnableINT (EXTI2);  
+  GIE_voidEnableGlobalInterrupt();
 
 
 
