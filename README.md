@@ -21,6 +21,7 @@
  - Interrupts
  - I2C
  - UART
-
+# Project Video
+ - Link:https://drive.google.com/file/d/15k9uwGzSQN4agytic5vkH9DyvhknpAiQ/view?usp=sharing
 
 
